@@ -18,14 +18,9 @@ public class OnPlayerMessage implements Listener {
       String msg = event.getMessage();
       String p = event.getPlayer().getDisplayName();
      FileConfiguration config = plugin.getConfig();
-     if (config.getBoolean("debug")) {
-      String newmsg = "[unregistered]" + "<"+p+"> "+msg;
-      Bukkit.broadcastMessage(newmsg);
-     }
-     else {
       String newmsg = "<"+p+"> "+msg;
       Bukkit.broadcastMessage(newmsg);
      }
      
      }
-}
+

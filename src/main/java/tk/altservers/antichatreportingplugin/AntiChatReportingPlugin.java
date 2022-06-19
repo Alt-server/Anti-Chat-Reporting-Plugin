@@ -1,6 +1,5 @@
 package tk.altservers.antichatreportingplugin;
 
-import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
 import tk.altservers.antichatreportingplugin.events.*;
 
@@ -9,8 +8,6 @@ public final class AntiChatReportingPlugin extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
-        this.saveDefaultConfig();
-        FileConfiguration config = getConfig();
         getLogger().info("chat reporting is being disabled");
         getServer().getPluginManager().registerEvents(new OnPlayerMessage(), this); 
     }

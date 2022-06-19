@@ -2,8 +2,8 @@ plugins {
     id 'java'
 }
 
-group = 'me.starstriker'
-version = '1.3-SNAPSHOT'
+group = 'tk.altservers'
+version = '1.2-SNAPSHOT'
 
 repositories {
     mavenCentral()
