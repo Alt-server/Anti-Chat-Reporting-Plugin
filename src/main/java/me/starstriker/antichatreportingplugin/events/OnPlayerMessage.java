@@ -1,4 +1,4 @@
-package me.starstriker.antichatreportingplugin.events;
+package tk.altservers.antichatreportingplugin.events;
 
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;

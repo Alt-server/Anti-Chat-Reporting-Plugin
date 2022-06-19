@@ -1,8 +1,8 @@
-package me.starstriker.antichatreportingplugin;
+package tk.altservers.antichatreportingplugin;
 
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
-import me.starstriker.antichatreportingplugin.events.*;
+import tk.altservers.antichatreportingplugin.events.*;
 
 public final class AntiChatReportingPlugin extends JavaPlugin {
 
