@@ -1,10 +1,11 @@
 package me.starstriker.antichatreportingplugin.events;
 
 import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerChatEvent;
 import org.bukkit.Bukkit;
 
-public class OnPlayerMessage {
+public class OnPlayerMessage implements Listener {
     @EventHandler
     public void onPlayerChat(PlayerChatEvent event)
     {

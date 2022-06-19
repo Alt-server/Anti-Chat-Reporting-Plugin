@@ -1,5 +1,6 @@
 package me.starstriker.antichatreportingplugin;
 
+import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
 import me.starstriker.antichatreportingplugin.events.*;
 
@@ -9,6 +10,7 @@ public final class AntiChatReportingPlugin extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
         getLogger().info("chat reporting is being disabled");
+        getServer().getPluginManager().registerEvents(new OnPlayerMessage(), this); 
     }
 
     @Override
