@@ -14,5 +14,8 @@ public final class AntiChatReportingPlugin extends JavaPlugin {
     public void onDisable() {
         // Plugin shutdown logic
         getLogger().info("Plugin has stopped, if this was intentional please disregard this message, if it crashed please contact the developer!");
+
     }
+
+    
 }
