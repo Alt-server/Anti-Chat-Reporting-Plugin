@@ -12,7 +12,7 @@ public class OnPlayerMessage {
     event.setCancelled(true);
      String msg = event.getMessage();
      String p = event.getPlayer().getDisplayName();
-     String newmsg = "<"+p+"> "+msg;
+     String newmsg = "[unregistered]" + "<"+p+"> "+msg;
      Bukkit.broadcastMessage(newmsg);
      }
 }
