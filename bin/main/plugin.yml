@@ -1,4 +1,4 @@
-name: Anti Chat Reporting Plugin
+name: Anti-Chat-Reporting-Plugin
 version: '${version}'
 main: me.starstriker.antichatreportingplugin.AntiChatReportingPlugin
 api-version: 1.19
