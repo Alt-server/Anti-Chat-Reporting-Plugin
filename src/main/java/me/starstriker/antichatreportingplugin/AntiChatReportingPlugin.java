@@ -1,6 +1,5 @@
 package tk.altservers.antichatreportingplugin;
 
-import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
 import tk.altservers.antichatreportingplugin.events.*;
 
