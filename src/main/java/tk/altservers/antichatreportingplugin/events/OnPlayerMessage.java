@@ -17,7 +17,6 @@ public class OnPlayerMessage implements Listener {
       event.setCancelled(true);
       String msg = event.getMessage();
       String p = event.getPlayer().getDisplayName();
-     FileConfiguration config = plugin.getConfig();
       String newmsg = "<"+p+"> "+msg;
       Bukkit.broadcastMessage(newmsg);
      }
